@@ -32,8 +32,15 @@
     display: flex;
     align-items: center;
 }
-.tech h3 {
-    margin-right: auto;
+.tech-title h3 {
+    margin-right: 30px;
+}
+.tech-title h3::after {
+    content: "";
+    height: 150px;
+    width: 100px;
+    border-right: 2px solid;
+    margin-left: 5px;
 }
 .tech-img > img {
     width: 35px;
@@ -69,5 +76,8 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
+    }
+    .tech-title h3::after {
+        display: none;
     }
 }
