@@ -1,0 +1,63 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home h1 {
+    font-size: 3.4375rem;
+}
+.home p {
+    line-height: 1.8;
+}
+.home a {
+    color: #2d2e32;
+}
+.about-me {
+    max-width: 480px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social {
+    font-size: 25px;
+}
+.tech {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.tech h3 {
+    margin-right: auto;
+}
+.tech-img > img {
+    width: 35px;
+}
+.tech-img {
+    display: flex;
+    gap: 20px;
+}
+.social:hover {
+    color: #0077b6;
+}
+@media (max-width: 750px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .tech {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+}

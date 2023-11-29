@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.about img {
+    width: 400px;
+    border-radius: 4px;
+}
+.about h3 {
+    color: #00b4d8;
+    margin: 20px 0;
+}
+.about p {
+    color: #555555;
+    margin-top: 10px;
+}
+.about-info {
+    max-width: 480px;
+}
+@media (max-width: 750px) {
+    .about {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about p {
+        line-height: 2;
+    }
+}

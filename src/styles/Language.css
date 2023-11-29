@@ -1,0 +1,10 @@
+.language-box {
+    max-width: 130px;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    padding: 8px 10px;
+}
+.black {
+    color: black;
+}

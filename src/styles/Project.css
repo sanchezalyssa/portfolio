@@ -1,0 +1,77 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+}
+.project-info {
+    width: 400px;
+}
+.project-info p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 1.0625rem;
+    font-weight: 500;
+    color: #767676;
+}
+.boxes {
+    display: flex;
+    gap: 20px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.btns-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btns-box p,
+.btns-box a {
+    margin: 0;
+}
+.btns-box a {
+    color: black;
+    font-size: 1.1875rem;
+}
+.link:hover {
+    color: #0096c7;
+}
+.black {
+    color: black;
+}
+.proj-img {
+    width: 420px;
+}
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.project-list:hover .project-img {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 750px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .project h3 {
+        margin: 10px 0;
+    }
+}
