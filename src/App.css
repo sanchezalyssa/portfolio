@@ -11,13 +11,12 @@ body {
     color: #2d2e32;
 }
 .main {
-    /* width: 80%; */
     margin: 0 auto;
     padding: 100px 180px;
 }
 @media (max-width: 750px) {
     .main {
         width: 100%;
-        padding: 40px;
+        padding: 20px;
     }
 }

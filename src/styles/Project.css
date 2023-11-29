@@ -1,80 +1,75 @@
-.project-list {
+.project {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+.project-list {
+    margin-bottom: 50px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
-    background-color: white;
+    gap: 80px;
     padding: 20px;
-    border-radius: 25px 20px;
+    background-color: white;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    text-align: center;
 }
-.project-info {
-    width: 400px;
+.prog-lead {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00b4d8;
+    font-size: 1.5625rem;
 }
-.project-info p {
-    margin-top: 20px;
-    line-height: 1.5;
-    font-weight: 1.0625rem;
+.proj-img {
+    width: 500px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.proj-img:hover {
+    transform: scale(1.1);
+}
+.proj-title {
+    margin-bottom: 20px;
+}
+.text-detail {
     font-weight: 500;
     color: #767676;
 }
-.boxes {
+.progs {
+    margin: 15px 0;
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
 }
 .links {
     display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
 }
-.btns-box {
+.link-list {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.btns-box p,
-.btns-box a {
-    margin: 0;
-}
-.btns-box a {
+.icon {
+    font-size: 1.25rem;
     color: black;
-    font-size: 1.1875rem;
 }
-.link:hover {
-    color: #0096c7;
+.icon:hover {
+    color: #00b4d8;
 }
 .black {
     color: black;
+    font-weight: 500;
 }
-.proj-img {
-    width: 420px;
-}
-.project-img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.project-list:hover .project-img {
-    transform: scale(1.1);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.project h3 {
-    text-align: start;
-}
+
 @media (max-width: 750px) {
-    .project {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .project-list {
-        display: flex;
         flex-direction: column;
+        gap: 20px;
     }
-    .project h3 {
-        margin: 10px 0;
+    .proj-img {
+        width: 100%;
     }
 }

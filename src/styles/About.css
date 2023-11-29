@@ -3,15 +3,22 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    text-align: center;
 }
 .about img {
     width: 400px;
     border-radius: 4px;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+.about img:hover {
+    transform: scale(1.1);
+    filter: blur(2px); /* Adjust the blur amount as needed */
 }
 .about h3 {
     color: #00b4d8;
+    font-size: 1.5625rem;
+    font-weight: 700;
     margin: 20px 0;
+    text-align: start;
 }
 .about p {
     color: #555555;
@@ -24,10 +31,15 @@
     .about {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         text-align: center;
     }
     .about p {
         line-height: 2;
+    }
+    .about img {
+        width: 100%;
+    }
+    .about h3 {
+        text-align: center;
     }
 }

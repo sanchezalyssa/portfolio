@@ -9,7 +9,7 @@ import bootstrap from "../assets/bootstrap.png"
 export default function Home() {
     return (
         <div className="home">
-            <img width={300} src="https://avatar.iran.liara.run/public/93" alt="avatar" />
+            <img className="avatar" width={300} src="https://avatar.iran.liara.run/public/93" alt="avatar" />
             <div className="about-me">
                 <h1>Front-End</h1>
                 <h1>Developer 👋</h1>

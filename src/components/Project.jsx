@@ -8,29 +8,27 @@ import { LuExternalLink } from "react-icons/lu"
 export default function Project() {
     const projectEls = projects.map((project) => (
         <div className="project-list" key={project.id}>
-            <div className="proj-img">
-                <a target="_blank" rel="noreferrer" href={project.link}>
-                    <img className="project-img" src={project.img} alt="random blog pic" />
-                </a>
-            </div>
-            <div className="project-info">
-                <h3>{project.title}</h3>
-                <p>{project.detail}</p>
-                <div className="boxes">
-                    <Language>{project.used[0].prog}</Language>
-                    <Language>{project.used[0].css}</Language>
+            <a target="_blank" rel="noreferrer" href={project.link}>
+                <img className="proj-img" src={project.img} alt={project.title} />
+            </a>
+            <div className="proj-detail">
+                <h3 className="proj-title">{project.title}</h3>
+                <p className="text-detail">{project.detail}</p>
+                <div className="progs">
+                    <Language className="black">{project.used[0].prog}</Language>
+                    <Language className="black">{project.used[0].css}</Language>
                 </div>
                 <div className="links">
-                    <div className="btns-box">
-                        <p className="code">Code</p>
-                        <a target="_blank" rel="noreferrer" href={project.code}>
-                            <FaGithub className="link" />
+                    <div className="link-list">
+                        <p className="link-text">Code</p>
+                        <a target="_blank" rel="noreferrer" href={project.link}>
+                            <FaGithub className="icon" />{" "}
                         </a>
                     </div>
-                    <div className="btns-box">
-                        <p className="live">Live Demo</p>
+                    <div className="link-list">
+                        <p className="link-text">Live Demo</p>
                         <a target="_blank" rel="noreferrer" href={project.link}>
-                            <LuExternalLink className="link" />
+                            <LuExternalLink className="icon" />
                         </a>
                     </div>
                 </div>
@@ -38,5 +36,10 @@ export default function Project() {
         </div>
     ))
 
-    return <div className="project">{projectEls}</div>
+    return (
+        <div className="project">
+            <h1 className="prog-lead">Projects</h1>
+            {projectEls}
+        </div>
+    )
 }

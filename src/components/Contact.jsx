@@ -20,23 +20,25 @@ export default function Contact() {
         )
     }
     return (
-        <form className="form" ref={form} onSubmit={sendEmail}>
-            <p className="form-title">Get in touch</p>
-            <div className="input-container">
-                <input type="text" name="user_name" placeholder="Enter Name" required />
-                <span></span>
-            </div>
-            <div className="input-container">
-                <input type="email" name="user_email" placeholder="Enter email" required />
-                <span></span>
-            </div>
-            <div className="input-container">
-                <textarea name="message" placeholder="Your message" />
-            </div>
-            <button type="submit" className="submit">
-                Submit
-            </button>
-            <h3>{submit}</h3>
-        </form>
+        <div className="contact-box">
+            <p className="form-title">Get in touch 👇</p>
+            <form className="form" ref={form} onSubmit={sendEmail}>
+                <div className="input-container">
+                    <input type="text" name="user_name" placeholder="Enter Name" required />
+                    <span></span>
+                </div>
+                <div className="input-container">
+                    <input type="email" name="user_email" placeholder="Enter email" required />
+                    <span></span>
+                </div>
+                <div className="input-container">
+                    <textarea name="message" placeholder="Your message" />
+                </div>
+                <button type="submit" className="submit">
+                    Submit
+                </button>
+                <h3>{submit}</h3>
+            </form>
+        </div>
     )
 }
