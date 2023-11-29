@@ -1,5 +1,5 @@
 import "../styles/Project.css"
-import { projects } from "../projects"
+import projects from "./projects.js"
 import Language from "./Language"
 import "../styles/Language.css"
 import { FaGithub } from "react-icons/fa"
