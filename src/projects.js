@@ -1,6 +1,6 @@
 const projects = [
     {
-        img: "image/blog.jpg",
+        img: "image/blog.png",
         title: "Random Blog Post",
         detail: " Created a user-friendly blog feature with React JS, enabling easy composition and storage of posts with Local Storage.Ensured mobile responsiveness for a seamless experience across devices. Ongoing collaboration for continuous improvements.",
         id: "1",
