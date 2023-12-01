@@ -6,13 +6,24 @@ import css from "../assets/css.png"
 import js from "../assets/js.png"
 import react from "../assets/react.png"
 import bootstrap from "../assets/bootstrap.png"
+import Typewriter from "typewriter-effect"
 export default function Home() {
     return (
         <div className="home">
             <img className="avatar" width={300} src="https://avatar.iran.liara.run/public/93" alt="avatar" />
             <div className="about-me">
-                <h1>Front-End</h1>
-                <h1>Developer 👋</h1>
+                <h1>
+                    <Typewriter
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 80,
+                            strings: ["Front-end<br>Web developer👋"],
+                            // or use an array if you have multiple lines
+                            // strings: ["Front-end", "Web developer 👋"],
+                        }}
+                    />
+                </h1>
 
                 <p>
                     Hey there! I'm Alyssa, a front-end developer who loves turning ideas into web magic. Proficient in HTML, CSS, and JavaScript, with
