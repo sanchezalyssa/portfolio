@@ -22,7 +22,7 @@ export default function Project() {
                     <div className="link-list">
                         <p className="link-text">Code</p>
                         <a target="_blank" rel="noreferrer" href={project.link}>
-                            <FaGithub className="icon" />{" "}
+                            <FaGithub className="icon" />
                         </a>
                     </div>
                     <div className="link-list">

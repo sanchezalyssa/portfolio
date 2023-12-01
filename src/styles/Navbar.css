@@ -8,6 +8,9 @@ nav {
     font-size: 1.5625rem;
     font-weight: 700;
 }
+.aly:hover {
+    text-decoration: none;
+}
 .navs {
     display: flex;
     align-items: center;

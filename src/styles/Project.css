@@ -13,7 +13,7 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
-    text-align: center;
+    text-align: start;
 }
 .prog-lead {
     margin-bottom: 30px;
@@ -30,6 +30,7 @@
     transform: scale(1.1);
 }
 .proj-title {
+    text-align: start;
     margin-bottom: 20px;
 }
 .text-detail {
@@ -39,18 +40,18 @@
 .progs {
     margin: 15px 0;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: start;
+    gap: 50px;
 }
 .links {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: start;
+    gap: 70px;
 }
 .link-list {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: start;
+    gap: 7px;
 }
 .icon {
     font-size: 1.25rem;
