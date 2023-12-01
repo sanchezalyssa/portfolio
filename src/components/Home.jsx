@@ -17,7 +17,7 @@ export default function Home() {
                         options={{
                             autoStart: true,
                             loop: true,
-                            delay: 80,
+                            delay: 100,
                             strings: ["Front-end<br>Web developer👋"],
                             // or use an array if you have multiple lines
                             // strings: ["Front-end", "Web developer 👋"],

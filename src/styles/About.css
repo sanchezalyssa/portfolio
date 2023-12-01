@@ -26,6 +26,7 @@
 }
 .about-info {
     max-width: 480px;
+    text-wrap: balance;
 }
 @media (max-width: 750px) {
     .about {
