@@ -3,6 +3,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-wrap: balance;
+    word-break: break-all;
 }
 .project-list {
     margin-bottom: 50px;

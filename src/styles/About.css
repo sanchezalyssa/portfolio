@@ -28,7 +28,7 @@
 }
 .about-info {
     max-width: 480px;
-    word-break: break-all;
+    text-wrap: balance;
 }
 @media (max-width: 750px) {
     .about {

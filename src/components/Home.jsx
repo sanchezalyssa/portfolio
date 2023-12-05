@@ -27,8 +27,8 @@ export default function Home() {
                 </h1>
 
                 <p>
-                    Hey there! I'm Alyssa, a front-end developer who loves turning ideas into web magic. Proficient in HTML, CSS, and JavaScript, with
-                    a focus on React
+                    Hey there! I'm Alyssa, a front-end developer who loves turning ideas into web magic. Proficient in HTML, CSS, JavaScript and
+                    React.
                 </p>
                 <div className="icons">
                     <a className="social" target="_blank" rel="noreferrer" href="https://github.com/sanchezalyssa">

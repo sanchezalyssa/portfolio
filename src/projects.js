@@ -16,7 +16,7 @@ const projects = [
     {
         img: "image/dashboard.png",
         title: "Personal Dashboard",
-        detail: "Inspired by Momentum. Get real-time updates on the date, weather and seamlessly manage my to-dos—all in one place. Effortlessly navigate to my favorite social media platforms, turning every new tab into a productivity powerhouse. Stay organized and connected with my user-friendly dashboard extension.",
+        detail: "Inspired by Momentum. Created a personal dashboard for seamless date, weather updates, to-do management, and quick access to favorite social media platforms.",
         id: "2",
         code: "https://github.com/sanchezalyssa/personal-dashboard",
         link: "https://github.com/sanchezalyssa/personal-dashboard",

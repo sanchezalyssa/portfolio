@@ -12,9 +12,9 @@ export default function About() {
                 <h3>ABOUT ME</h3>
                 <h2>📍 Quezon City</h2>
                 <p>
-                    Hello, I'm Alyssa, a recent graduate from AMA College Fairview, passionate about front-end development. I'm excited to craft
-                    engaging user experiences. Eager to contribute my skills and collaborative spirit to innovative teams. Currently seeking
-                    opportunities to grow as a front-end developer.
+                    Hello, I'm a recent graduate from AMA College Fairview, passionate about front-end development. I'm excited to craft engaging user
+                    experiences. Eager to contribute my skills and collaborative spirit to innovative teams. Currently seeking opportunities to grow
+                    as a front-end developer.
                 </p>
             </div>
         </div>
