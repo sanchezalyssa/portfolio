@@ -5,7 +5,7 @@ const projects = [
         detail: "I have created a responsive car rental app using HTML, CSS, and JavaScript, leveraging my knowledge of React and React Router in the development process.",
         id: "1",
         code: "https://github.com/sanchezalyssa/car-rental",
-        link: "https://car-rental-ten.vercel.app/",
+        link: "https://rentcartoday.vercel.app/",
         used: [
             {
                 prog: "React",
