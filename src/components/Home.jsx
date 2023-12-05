@@ -6,11 +6,12 @@ import css from "../assets/css.png"
 import js from "../assets/js.png"
 import react from "../assets/react.png"
 import bootstrap from "../assets/bootstrap.png"
+import avatar from "/image/avatar1.jpg"
 import Typewriter from "typewriter-effect"
 export default function Home() {
     return (
         <div className="home">
-            <img className="avatar" width={300} src="https://avatar.iran.liara.run/public/93" alt="avatar" />
+            <img className="avatar" src={avatar} alt="avatar" />
             <div className="about-me">
                 <h1>
                     <Typewriter
@@ -46,7 +47,7 @@ export default function Home() {
                         <img src={css} alt="css" />
                         <img src={js} alt="html" />
                         <img src={react} alt="react" />
-                        <img src={bootstrap} alt="bootsrap" />
+                        <img src={bootstrap} alt="bootstrap" />
                     </div>
                 </div>
             </div>

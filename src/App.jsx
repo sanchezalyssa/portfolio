@@ -3,7 +3,6 @@ import Layout from "./layout/Layout"
 import Home from "./components/Home"
 import About from "./components/About"
 import Project from "./components/Project"
-import Contact from "./components/Contact"
 
 import "./App.css"
 
@@ -15,7 +14,6 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/projects" element={<Project />} />
-                    <Route path="/contact" element={<Contact />} />
                 </Route>
             </Routes>
         </BrowserRouter>

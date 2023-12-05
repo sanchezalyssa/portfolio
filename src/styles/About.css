@@ -5,7 +5,7 @@
     justify-content: space-around;
 }
 .about img {
-    width: 400px;
+    max-width: 400px;
     border-radius: 4px;
     transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
@@ -21,12 +21,14 @@
     text-align: start;
 }
 .about p {
-    color: #555555;
     margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    color: #555555;
 }
 .about-info {
     max-width: 480px;
-    text-wrap: balance;
+    word-break: break-all;
 }
 @media (max-width: 750px) {
     .about {

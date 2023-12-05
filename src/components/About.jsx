@@ -10,11 +10,11 @@ export default function About() {
             />
             <div className="about-info">
                 <h3>ABOUT ME</h3>
-                <h2>A dedicated Front-end Developer based in Quezon City, Philippines</h2>
+                <h2>📍 Quezon City</h2>
                 <p>
-                    Hi, I'm Alyssa, a dedicated front-end developer. With a strong foundation in HTML, CSS, and JavaScript, I specialize in crafting
-                    engaging user interfaces using React. My passion lies in creating seamless and visually appealing websites that deliver a standout
-                    user experience. Proficient with version control using Git, I thrive on turning innovative ideas into reality.
+                    Hello, I'm Alyssa, a recent graduate from AMA College Fairview, passionate about front-end development. I'm excited to craft
+                    engaging user experiences. Eager to contribute my skills and collaborative spirit to innovative teams. Currently seeking
+                    opportunities to grow as a front-end developer.
                 </p>
             </div>
         </div>

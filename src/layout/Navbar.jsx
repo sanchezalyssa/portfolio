@@ -21,17 +21,14 @@ export default function Navbar() {
 
                 <div className={`nav-elements ${menuClass}`}>
                     <IoClose onClick={handleMenu} className="close" />
-                    <NavLink activeclassName="active" exact="true" to="/" onClick={() => setMenu(false)}>
+                    <NavLink className={({ isActive }) => (isActive ? "active" : null)} end to="/" onClick={() => setMenu(false)}>
                         Home
                     </NavLink>
-                    <NavLink to="about" onClick={() => setMenu(false)}>
+                    <NavLink className={({ isActive }) => (isActive ? "active" : null)} to="about" onClick={() => setMenu(false)}>
                         About
                     </NavLink>
-                    <NavLink to="projects" onClick={() => setMenu(false)}>
+                    <NavLink className={({ isActive }) => (isActive ? "active" : null)} to="projects" onClick={() => setMenu(false)}>
                         Projects
-                    </NavLink>
-                    <NavLink to="contact" onClick={() => setMenu(false)}>
-                        Contact
                     </NavLink>
                 </div>
             </div>
