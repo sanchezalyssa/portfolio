@@ -7,6 +7,7 @@ import js from "../assets/js.png"
 import react from "../assets/react.png"
 import bootstrap from "../assets/bootstrap.png"
 import avatar from "/image/avatar1.jpg"
+
 import Typewriter from "typewriter-effect"
 export default function Home() {
     return (
