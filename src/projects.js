@@ -15,7 +15,7 @@ const projects = [
     },
     {
         img: "image/dashboard.png",
-        title: "Personal Dashboard",
+        title: "Personal Dashboard Extension",
         detail: "Inspired by Momentum. Created a personal dashboard for seamless date, weather updates, to-do management, and quick access to favorite social media platforms.",
         id: "2",
         code: "https://github.com/sanchezalyssa/personal-dashboard",
