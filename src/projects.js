@@ -19,7 +19,7 @@ const projects = [
         detail: "Inspired by Momentum. Created a personal dashboard for seamless date, weather updates, to-do management, and quick access to favorite social media platforms.",
         id: "2",
         code: "https://github.com/sanchezalyssa/personal-dashboard",
-        link: "https://github.com/sanchezalyssa/personal-dashboard",
+        link: "https://drive.google.com/file/d/1KaHoZJtaj7MKr71cxLEVKww1KhEyEtdS/view?usp=sharing",
         used: [
             {
                 prog: "Javascript",
