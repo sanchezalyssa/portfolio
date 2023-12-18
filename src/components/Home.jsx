@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import "../styles/Home.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import html from "../assets/html.png"
-import css from "../assets/css.png"
-import js from "../assets/js.png"
-import react from "../assets/react.png"
 import bootstrap from "../assets/bootstrap.png"
+import css from "../assets/css.png"
+import html from "../assets/html.png"
+import js from "../assets/js.png"
+import node from "../assets/node.png"
+import react from "../assets/react.png"
+import "../styles/Home.css"
 import avatar from "/image/avatar1.jpg"
 
 import Typewriter from "typewriter-effect"
@@ -49,6 +50,7 @@ export default function Home() {
                         <img src={js} alt="html" />
                         <img src={react} alt="react" />
                         <img src={bootstrap} alt="bootstrap" />
+                        <img src={node} alt="node" width={250} />
                     </div>
                 </div>
             </div>
