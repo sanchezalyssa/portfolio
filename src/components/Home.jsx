@@ -4,8 +4,10 @@ import bootstrap from "../assets/bootstrap.png"
 import css from "../assets/css.png"
 import html from "../assets/html.png"
 import js from "../assets/js.png"
+import mysql from "../assets/mysql.png"
 import node from "../assets/node.png"
 import react from "../assets/react.png"
+import tailwind from "../assets/tailwind.png"
 import "../styles/Home.css"
 import avatar from "/image/avatar1.jpg"
 
@@ -50,7 +52,9 @@ export default function Home() {
                         <img src={js} alt="html" />
                         <img src={react} alt="react" />
                         <img src={bootstrap} alt="bootstrap" />
-                        <img src={node} alt="node" width={250} />
+                        <img src={tailwind} alt="tailwind" />
+                        <img src={node} alt="node" />
+                        <img src={mysql} alt="mysql" />
                     </div>
                 </div>
             </div>
