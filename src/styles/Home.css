@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .avatar {
     max-width: 250px;
     background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
@@ -11,6 +12,7 @@
     transition: all 1s ease-in-out;
     z-index: 5;
 }
+
 @keyframes morph {
     0% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -30,36 +32,45 @@
         border: 2px solid #1c1c1c;
     }
 }
+
 .home h1 {
     font-size: 3.1375rem;
 }
+
 .home p {
     line-height: 1.8;
 }
+
 .home a {
     color: #2d2e32;
 }
+
 .about-me {
     max-width: 480px;
     text-wrap: balance;
 }
+
 .icons {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
+
 .social {
     font-size: 25px;
 }
+
 .tech {
     margin-top: 20px;
     display: flex;
     align-items: center;
 }
+
 .tech-title h3 {
     margin-right: 30px;
 }
+
 .tech-title h3::after {
     content: "";
     height: 150px;
@@ -67,16 +78,22 @@
     border-right: 2px solid;
     margin-left: 5px;
 }
-.tech-img > img {
+
+.tech-img>img {
     width: 35px;
 }
+
 .tech-img {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
+
 .social:hover {
     color: #0077b6;
 }
+
 @media screen and (max-width: 900px) {
     .home {
         flex-direction: column;
@@ -84,24 +101,29 @@
         align-items: center;
         text-align: center;
     }
+
     .avatar {
         width: 55%;
         margin-bottom: 20px;
     }
+
     .home h1 {
         font-size: 1.9625rem;
     }
+
     .icons {
         display: flex;
         justify-content: center;
         margin-bottom: 40px;
     }
+
     .tech {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 25px;
     }
+
     .tech-title h3::after {
         display: none;
     }
