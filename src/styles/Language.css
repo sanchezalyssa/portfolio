@@ -1,10 +1,9 @@
-.language-box {
+.language {
     text-align: center;
-    background-color: white;
+    background-color: black;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
-    padding: 8px;
-    border-radius: 8px;
-}
-.black {
-    color: black;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 0.8125rem;
+    padding: 1px 10px;
 }

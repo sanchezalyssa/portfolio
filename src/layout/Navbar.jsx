@@ -1,8 +1,7 @@
-import "../styles/Navbar.css"
-import { IoMenu } from "react-icons/io5"
-import { IoClose } from "react-icons/io5"
 import { useState } from "react"
+import { IoClose, IoMenu } from "react-icons/io5"
 import { Link, NavLink } from "react-router-dom"
+import "../styles/Navbar.css"
 export default function Navbar() {
     const [menu, setMenu] = useState(false)
 

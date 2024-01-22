@@ -9,11 +9,13 @@
     display: flex;
     align-items: center;
     gap: 80px;
-    padding: 20px;
-    background-color: white;
+    padding: 25px;
+
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
-    text-wrap: balance;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 6px 6px 12px #929292,
+        -6px -6px 12px #ffffff;
+
 }
 
 .prog-lead {
@@ -36,12 +38,17 @@
 .proj-title {
     text-align: start;
     margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.proj-detail-div {
+    width: 300px;
 }
 
 .text-detail {
-    font-weight: 500;
     color: #767676;
-    text-align: justify;
+    font-weight: 400;
+    font-size: 0.9375rem;
 }
 
 .progs {
@@ -54,14 +61,9 @@
 .links {
     display: flex;
     justify-content: start;
-    gap: 20px;
+    gap: 10px;
 }
 
-.link-list {
-    display: flex;
-    align-items: start;
-    gap: 7px;
-}
 
 .icon {
     font-size: 1.25rem;

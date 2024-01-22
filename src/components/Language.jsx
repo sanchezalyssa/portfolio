@@ -2,7 +2,7 @@
 import "../styles/Language.css"
 
 export default function Language({ children, className }) {
-    const colorClass = className ? "black" : null
+  const colorClass = className ? "language" : null
 
-    return <p className={`language-box ${colorClass}`}>{children}</p>
+  return <p className={`${colorClass}`}>{children}</p>
 }

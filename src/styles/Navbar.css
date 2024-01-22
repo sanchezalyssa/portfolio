@@ -3,27 +3,33 @@ nav {
     background-color: white;
     box-shadow: gba(0, 0, 0, 0.09) 0px 0px 10px 0px;
 }
+
 .aly {
     margin-right: auto;
     font-size: 1.5625rem;
     font-weight: 700;
 }
+
 .aly:hover {
     text-decoration: none;
 }
+
 .navs {
     display: flex;
     align-items: center;
 }
+
 .nav-elements {
     display: flex;
     gap: 20px;
 }
+
 nav a {
     color: #2d2e32;
     text-decoration: none;
     font-weight: 600;
 }
+
 nav a:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -34,6 +40,7 @@ nav a:hover {
     display: none;
     font-size: 1.5625rem;
 }
+
 .active {
     color: #00b4d8;
 }
@@ -42,10 +49,10 @@ nav a:hover {
     .nav-elements {
         display: none;
     }
+
     .appear {
         background-color: whitesmoke;
         position: fixed;
-        /* width: 100%; */
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -59,19 +66,21 @@ nav a:hover {
         right: 0;
         bottom: 0;
     }
+
     .burger {
         display: flex;
         align-items: center;
         margin-left: auto;
-        /* position: fixed; */
-        /* right: 50px; */
+
     }
+
     .close {
         display: flex;
         position: fixed;
         top: 20px;
         right: 50px;
     }
+
     .aly {
         display: none;
     }
