@@ -16,7 +16,7 @@ export default function Project() {
   const projectEls = projects.map((project) => (
     <div data-aos="fade-right" className="project-list" key={project.id}>
       <a target="_blank" rel="noreferrer" href={project.link}>
-        <img className="proj-img" src={project.img} alt={project.title} />
+        <img className="proj-img" src={project.img} alt={project.title} loading="lazy" />
       </a>
       <div className="proj-detail">
         <h3 className="proj-title">{project.title}</h3>
