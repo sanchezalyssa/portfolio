@@ -64,11 +64,10 @@
 .tech {
     margin-top: 20px;
     display: flex;
-    align-items: center;
 }
 
 .tech-title h3 {
-    margin-right: 30px;
+    width: 120px;
 }
 
 .tech-title h3::after {
