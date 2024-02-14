@@ -4,7 +4,6 @@ import bootstrap from "../assets/bootstrap.png"
 import css from "../assets/css.png"
 import html from "../assets/html.png"
 import js from "../assets/js.png"
-import mysql from "../assets/mysql.png"
 import node from "../assets/node.png"
 import react from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
@@ -51,7 +50,6 @@ export default function Home() {
             <img src={bootstrap} alt="bootstrap" />
             <img src={tailwind} alt="tailwind" />
             <img src={node} alt="node" />
-            <img src={mysql} alt="mysql" />
           </div>
         </div>
       </div>
